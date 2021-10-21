@@ -7,6 +7,8 @@
   --main-green: #528c83;
   --main-light-green: #96b1ac;
   --main-blue: #6e83a6;
+  --main-red: #be3144;
+  --main-light-red: #ffe4e3;
 }
 * {
   box-sizing: border-box;

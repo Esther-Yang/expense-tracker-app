@@ -24,3 +24,8 @@
 .new-expense__actions {
   text-align: right;
 }
+
+.invalid input {
+  background-color: var(--main-light-red);
+  /* border: 1px solid var(--main-red); */
+}
