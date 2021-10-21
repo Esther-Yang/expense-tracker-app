@@ -6,4 +6,5 @@
 .expenses-list__fallback {
   color: var(--main-white);
   text-align: center;
+  font-size: 1.5rem;
 }
