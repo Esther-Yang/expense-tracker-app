@@ -28,7 +28,7 @@
 }
 
 .new-expense button.alternative {
-  color: #220131;
+  color: var(--main-grey);
   border-color: transparent;
   background-color: transparent;
 }

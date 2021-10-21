@@ -110,8 +110,10 @@ const ExpenseForm = (props) => {
             Cancel
           </button>
         </div>
-        <div className={classes["new-expense__actions"]}>
-          <button type="submit" disabled={!formIsValid}>Add Expense</button>
+        <div className={`${classes["new-expense__actions"]} ${classes["add-expense"]}`}>
+          <button type="submit" disabled={!formIsValid}>
+            Add Expense
+          </button>
         </div>
       </div>
     </form>
