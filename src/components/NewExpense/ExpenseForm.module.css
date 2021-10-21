@@ -1,5 +1,7 @@
 .new-expense__controls {
   display: flex;
+  flex-direction: column;
+  align-items: stretch;
   flex-wrap: wrap;
   gap: 1rem;
   margin-bottom: 1rem;
@@ -17,8 +19,17 @@
   padding: 0.5rem;
   border-radius: 6px;
   border: 1px solid var(--main-light-green);
-  width: 20rem;
-  max-width: 100%;
+  width: 100%;
+}
+
+.new-expense__actions-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
 .new-expense__actions {

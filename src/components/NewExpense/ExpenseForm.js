@@ -103,6 +103,8 @@ const ExpenseForm = (props) => {
             onBlur={dateBlurHandler}
           />
         </div>
+      </div>
+      <div className={classes["new-expense__actions-container"]}>
         <div className={classes["new-expense__actions"]}>
           <button type="button" onClick={props.onCancel}>
             Cancel
