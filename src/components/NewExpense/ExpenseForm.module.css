@@ -40,3 +40,12 @@
   background-color: var(--main-light-red);
   /* border: 1px solid var(--main-red); */
 }
+
+button:disabled,
+button:disabled:hover,
+button:disabled:active {
+  background-color: var(--main-light-grey);
+  color: var(--main-black);
+  border-color: var(--main-light-grey);
+  cursor: not-allowed;
+}
