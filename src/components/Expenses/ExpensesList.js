@@ -4,7 +4,7 @@ import classes from "./ExpensesList.module.css";
 
 const ExpensesList = (props) => {
   if (props.items.length === 0) {
-      return <h2 className={classes["expenses-list__fallback"]}>Found no expenses.</h2>;
+      return <h2 className={classes["expenses-list__fallback"]}>No Expenses Found.</h2>;
   }
 
   return (
