@@ -1,8 +1,16 @@
 .chart-bar {
   height: 100%;
+  width: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* 460px / 16px = 28.75em */
+@media (max-width: 28.75em) {
+  .chart-bar {
+    width: 1.5rem;
+  }
 }
 
 .chart-bar__inner {
@@ -20,11 +28,12 @@
 .chart-bar__fill {
   background-color: var(--main-dark-green);
   width: 100%;
+  border-radius: 12px;
   transition: all 0.3s ease-out;
 }
 
 .chart-bar__label {
   font-weight: bold;
-  font-size: 0.5rem;
+  font-size: 1rem;
   text-align: center;
 }
